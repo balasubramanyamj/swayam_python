@@ -1,2 +1,2 @@
-# swayam_python
-This repository have code related python courses.
+# swayam_python/feature/dsa
+This branch has the code files for swayam "Programming, Data Structures And Algorithms Using Python" course.

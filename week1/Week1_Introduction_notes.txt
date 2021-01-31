@@ -1,0 +1,27 @@
+what is an Algorithm:
+
+Description how to systematically perform a task in step by step manner, simply a recipe to do something in a step by step manner
+
+Ex: Recipe involved in preparing any dish say biryani, Steps involved in calculating sum of N numbers etc.,
+
+To illustrate this, let us look at the steps involved in calculating the GCD of two number say gcd(m, n).
+
+Greatest Common Divisor - GCD (The largest common divisor of both m and n)
+
+Ex: gcd(8, 12)
+
+Here 4 is the largest number that divides both 8 and 12 and hence the gcd(8, 12) = 4
+
+Steps:
+1. List out the factors of m
+2. List out the factors of n
+3. Take largest number that appears in both lists
+
+Detailed steps:
+1. Use fm, fn as list of all the possible factors for m and n respectively
+2. For each i value from 1 to m, add i to fm if i divides m
+3. For each j value from 1 to n, add i to fn if i divides n
+4. Use cf for list of common factors
+5. For each f in fm, add f to cf if f also appears in fn
+6. Return largest (rightmost) value from cf
+
